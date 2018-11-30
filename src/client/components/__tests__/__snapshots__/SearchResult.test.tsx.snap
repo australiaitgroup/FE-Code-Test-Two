@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResult renders correctly (error) 1`] = `
+<div
+  className="ui segment"
+>
+  <div
+    className="ui negative message"
+  >
+    <div
+      className="header"
+    >
+      Sorry, there was an error
+    </div>
+    <p>
+      message
+    </p>
+  </div>
+</div>
+`;
+
+exports[`SearchResult renders correctly (loading) 1`] = `
+<div
+  className="ui loading segment"
+>
+  <div
+    className="ui placeholder"
+  >
+    <div
+      className="header"
+    >
+      <div
+        className="line"
+      />
+      <div
+        className="line"
+      />
+    </div>
+    <div
+      className="paragraph"
+    >
+      <div
+        className="line"
+      />
+      <div
+        className="line"
+      />
+      <div
+        className="line"
+      />
+      <div
+        className="line"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SearchResult renders correctly (no match) 1`] = `
+<div
+  className="ui placeholder segment"
+>
+  <div
+    className="ui icon header"
+  >
+    <i
+      aria-hidden="true"
+      className="search icon"
+    />
+    No results matching your query.
+  </div>
+</div>
+`;
+
+exports[`SearchResult renders correctly (normal) 1`] = `
+<div
+  className="ui segment"
+>
+  <div
+    className="ui divided items"
+  >
+    <div
+      className="item"
+    >
+      <div
+        className="content"
+      >
+        <a
+          className="header"
+          href="http://www.npr.org/sections"
+        >
+          <p
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "How Well Can You Hear Audio Quality?",
+              }
+            }
+          />
+        </a>
+        <div
+          className="meta"
+        >
+          <div
+            className="ui medium label marginTop"
+            onClick={[Function]}
+          >
+            0
+             points
+          </div>
+          <div
+            className="ui medium label marginTop"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="user icon"
+            />
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "pingec",
+                }
+              }
+            />
+          </div>
+          <div
+            className="ui medium label marginTop"
+            onClick={[Function]}
+          >
+            3 years ago
+          </div>
+          <div
+            className="ui medium label marginTop"
+            onClick={[Function]}
+          >
+            comment
+          </div>
+        </div>
+        <div
+          className="description"
+        >
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "Similar test: <a href='http://test.tidalhifi.com'",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

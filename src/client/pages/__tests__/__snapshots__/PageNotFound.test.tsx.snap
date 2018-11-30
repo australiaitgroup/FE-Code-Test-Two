@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageNotFound renders correctly 1`] = `
+<div
+  className="ui container height"
+>
+  <div
+    className="ui centered stackable center aligned middle aligned grid height"
+  >
+    <div
+      className="center aligned seven wide column"
+    >
+      <img
+        className="ui image"
+      />
+    </div>
+    <div
+      className="center aligned seven wide column"
+    >
+      <h1
+        className="ui grey center aligned header headerFontSize"
+      >
+        404
+        <div
+          className="sub header contentFontSize"
+        >
+          Sorry, the page could not be found
+        </div>
+      </h1>
+      <a
+        className="ui primary button"
+        href="/"
+        onClick={[Function]}
+        role="button"
+      >
+        Back to home page
+      </a>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination renders correctly 1`] = `
+<div
+  className="ui center aligned container"
+>
+  <div
+    aria-label="Pagination Navigation"
+    className="ui mini pagination menu"
+    role="navigation"
+  >
+    <a
+      aria-current={false}
+      aria-label="First item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="firstItem"
+      value={1}
+    >
+      «
+    </a>
+    <a
+      aria-current={false}
+      aria-label="Previous item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="prevItem"
+      value={2}
+    >
+      ⟨
+    </a>
+    <a
+      aria-current={false}
+      className="disabled item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={-1}
+      type="ellipsisItem"
+      value={2}
+    >
+      ...
+    </a>
+    <a
+      aria-current={true}
+      className="active item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="pageItem"
+      value={3}
+    >
+      3
+    </a>
+    <a
+      aria-current={false}
+      className="disabled item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={-1}
+      type="ellipsisItem"
+      value={4}
+    >
+      ...
+    </a>
+    <a
+      aria-current={false}
+      aria-label="Next item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="nextItem"
+      value={4}
+    >
+      ⟩
+    </a>
+    <a
+      aria-current={false}
+      aria-label="Last item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="lastItem"
+      value={50}
+    >
+      »
+    </a>
+  </div>
+</div>
+`;

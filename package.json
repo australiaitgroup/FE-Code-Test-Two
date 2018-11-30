@@ -1,0 +1,96 @@
+{
+  "name": "hns",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "compression": "^1.7.3",
+    "cross-fetch": "^2.2.3",
+    "express": "^4.16.4",
+    "moment": "^2.22.2",
+    "react": "^16.6.3",
+    "react-datepicker": "^1.8.0",
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1",
+    "react-responsive": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-scroll": "^1.7.10",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-react": "^0.83.0"
+  },
+  "scripts": {
+    "start": "webpack --config ./webpackConfig/development.js --watch",
+    "build": "webpack --config ./webpackConfig/production.js",
+    "lint": "tslint -c tslint.json -p .",
+    "test": "npm run lint && jest",
+    "test-jest": "jest",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.7",
+    "@types/react": "^16.7.6",
+    "babel-loader": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin": "^1.0.0",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "jest": "^23.6.0",
+    "nock": "^10.0.2",
+    "nodemon-webpack-plugin": "^4.0.3",
+    "postcss-loader": "^3.0.0",
+    "react-test-renderer": "^16.6.3",
+    "redux-mock-store": "^1.5.3",
+    "ts-jest": "^23.10.4",
+    "ts-loader": "^5.3.0",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.1.6",
+    "webpack": "^4.25.1",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-merge": "^4.1.4"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less|styl|scss|sass|sss)$": "identity-obj-proxy"
+    },
+    "transform": {
+      "\\.tsx?$": "ts-jest",
+      "\\.(jpg|jpeg|png|gif|svg)$": "<rootDir>/tools/testHelpers/fileMock.js"
+    },
+    "testRegex": ".*\\.test\\.tsx?$",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/webpackConfig/"
+    ],
+    "globals": {
+      "ts-jest": {
+        "diagnostics": false
+      }
+    },
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.{js,ts,tsx}",
+      "!**/*.d.ts"
+    ]
+  }
+}

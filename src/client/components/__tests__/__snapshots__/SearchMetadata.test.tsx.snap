@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchMetadata renders correctly 1`] = `
+<div
+  className="ui tiny info message"
+>
+  <span>
+    3
+     results found
+  </span>
+  <div
+    className="ui list"
+    role="list"
+  >
+    <div
+      className="item"
+      onClick={[Function]}
+      role="listitem"
+    >
+      Search Type: 
+      All
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+      role="listitem"
+    >
+      Sort Order: 
+      Popularity
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+      role="listitem"
+    >
+      Date Range: 
+      All Time
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+      role="listitem"
+    >
+      Hits Per Page: 
+      20
+    </div>
+  </div>
+</div>
+`;

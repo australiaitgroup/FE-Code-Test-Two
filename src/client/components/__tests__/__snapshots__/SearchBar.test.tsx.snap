@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar renders correctly 1`] = `
+<div
+  className="ui fluid action left icon input"
+>
+  <input
+    onChange={[Function]}
+    onKeyUp={[Function]}
+    placeholder="Search..."
+    type="text"
+  />
+  <i
+    aria-hidden="true"
+    className="search icon"
+  />
+  <button
+    className="ui teal button"
+    onClick={[Function]}
+    role="button"
+  >
+    Search
+  </button>
+</div>
+`;

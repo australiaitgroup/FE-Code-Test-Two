@@ -1,0 +1,15 @@
+.marginTop {
+    margin-top: 0.2rem !important;
+}
+
+em {
+    background-color: yellow;
+}
+
+code {
+    white-space: normal;
+}
+
+body {
+    word-wrap: break-word;
+}
